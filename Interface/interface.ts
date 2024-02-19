@@ -1,11 +1,13 @@
 // Interface
-interface Person {
+// I change from Person to Persona because confict with Classes tutorial
+// CHANGE BACK TO DEFAULT IF NEED NEW TUTORIAL.
+interface Persona {
     name: string;
     age: number;
     isStudent: boolean;
 }
 
-let personOne: Person = {
+let personOne: Persona = {
     name: "Reynaldo",
     age: 78,
     isStudent: false,
