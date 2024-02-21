@@ -16,6 +16,21 @@ export class Person {
     }
 }
 
+export class Student extends Person {
+
+    school: string;
+
+    constructor(name: string, age: number, school: string) {
+        super(name, age);
+        this.school = school;
+    }
+
+    printSchoolName(): void {
+        console.log("School ", this.school);
+    }
+
+}
+
 // Person
 let reynaldo: Person = new Person("Reynaldo", 23);
 reynaldo.printName();
@@ -25,8 +40,10 @@ let alice: Person = new Person("Alice", 29);
 alice.printName();
 console.log("Age ", alice.personAge());
 
+// Student 
+let maria: Student = new Student("Maria", 28, "zyx school");
+console.log("======");
 
-
-
-
-
+maria.printName();
+console.log("Age ", maria.personAge());
+maria.printSchoolName();
