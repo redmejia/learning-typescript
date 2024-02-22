@@ -5,8 +5,6 @@ When you declare a variable, you can also specify its type. This helps TypeScrip
 ## Basics Types
 string: Represents sequences of text characters.
 ```
-    Define Variable
-    variableName: type
     let name: string = "Alice";
     name = 34 // error variable was defined to store string type
 
@@ -79,7 +77,7 @@ interface: Defines the shape of an object, specifying required and optional pr
         isStudent?: boolean
     }
 
-    let reynaldo: Persona = {
+    let reynaldo: Person = {
         name: "Reynaldo",
         age: 23,
     }
