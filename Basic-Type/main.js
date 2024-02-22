@@ -1,14 +1,14 @@
 "use strict";
 // Basic types
 // String
-var firstName = "Reynaldo";
-var userName = "Alice";
+const firstName = "Reynaldo";
+let userName = "Alice";
 userName = "Sofia";
 // Number
-var price = 90.10;
-var age = 89;
+const price = 90.10;
+const age = 89;
 // bolean
-var isStudent = false;
+let isStudent = false;
 isStudent = true;
 console.log(firstName);
 console.log(userName);
@@ -17,9 +17,9 @@ console.log(age);
 console.log(isStudent);
 // Compound types
 // Array
-var numbers = [1, 2, 3, 5];
+let numbers = [1, 2, 3, 5];
 // tuple
-var person = ["Alice", 89];
+const person = ["Alice", 89];
 // enum
 var Color;
 (function (Color) {
@@ -31,16 +31,16 @@ console.log(person);
 console.log("Color ", Color.BLUE);
 // structal types
 // object
-var user;
+let user;
 user = { name: "Alice", age: 78 };
 console.log(user);
-var userOne = {
+const userOne = {
     name: "Reynaldo",
     age: 78,
     skills: ["TypeScript", "GoLang", "Reac"]
 };
 console.log("user one", userOne);
-var userDos = {
+const userDos = {
     name: "Jose",
     age: 45,
 };

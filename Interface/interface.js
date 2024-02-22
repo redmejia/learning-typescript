@@ -1,5 +1,5 @@
 "use strict";
-var personOne = {
+let personOne = {
     name: "Reynaldo",
     age: 78,
     isStudent: false,
@@ -7,13 +7,13 @@ var personOne = {
 personOne.name = "Jose";
 personOne.isStudent = true;
 console.log(personOne);
-var personTwo = {
+let personTwo = {
     name: "Reynaldo",
 };
 console.log(personTwo);
 personTwo.isStudent = true;
 console.log(personTwo);
-var personThree = {
+let personThree = {
     name: "Alice",
     age: 34
 };

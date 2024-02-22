@@ -1,32 +1,44 @@
 "use strict";
-var fakeData = {
+const fakeData = {
     Users: {
         name: "Reynaldo",
         email: "test@me.com",
         password: "12345678"
     },
 };
-var profileContent = {
+const profileContent = {
     title: "Welcome",
     description: "Discover amazing content and join our community.",
 };
 function renderProfile(user, content) {
-    var appElement = document.getElementById('profile');
+    const appElement = document.getElementById('profile');
     if (appElement) {
-        appElement.innerHTML = "\n        <header>\n          <h1>".concat(content.title, "</h1>\n        </header>\n        <main>\n          \n          <h1>").concat(content.description, "</h1>\n          <h2>Welcome, ").concat(user.name, " (").concat(user.email, ")!</h2>\n          <p> Hello, Mundo \uD83C\uDF0E </p>\n        </main>\n        <footer>\n          <p>\u00A9 2024 Learning TypeScript </p>\n        </footer>\n      ");
+        appElement.innerHTML = `
+        <header>
+          <h1>${content.title}</h1>
+        </header>
+        <main>
+          <h1>${content.description}</h1>
+          <h2>Welcome, ${user.name} (${user.email})!</h2>
+          <p> Hello, Mundo 🌎 </p>
+        </main>
+        <footer>
+          <p>© 2024 Learning TypeScript </p>
+        </footer>
+      `;
     }
 }
 function logIn(event) {
     event.preventDefault();
-    var email = document.getElementById('email');
-    var pwd = document.getElementById('password');
+    let email = document.getElementById('email');
+    let pwd = document.getElementById('password');
     if (fakeData.Users.email === email.value && fakeData.Users.password === pwd.value) {
-        var logInWrapper = document.getElementById("wrapper");
+        let logInWrapper = document.getElementById("wrapper");
         logInWrapper.style.display = 'none';
         renderProfile(fakeData.Users, profileContent);
     }
     else {
-        var notFound = document.getElementById("error");
+        let notFound = document.getElementById("error");
         notFound.innerHTML = "User Not Found 😭";
     }
 }
