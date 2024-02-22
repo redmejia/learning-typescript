@@ -6,4 +6,4 @@ The Person class in the explample could have properties (name, age), each annota
 The constructor initializes these properties when a new instance of the class is created.
 
 The methods have type annotations for both parameters and the return value.
-In the example below printName method return void type and personAge return number type
+In the example below printName method return void type and personAge return number type.
