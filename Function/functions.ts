@@ -32,6 +32,7 @@
 
 
 
+    // In this case, the CalculatorFunction type describes a function that takes two number parameters and returns a number.
     // Function Types
     type calFuncDos = (length: number, width: number) => number
 
