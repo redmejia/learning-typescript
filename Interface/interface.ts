@@ -1,6 +1,6 @@
 // Interface
 // I change from Person to Persona because confict with Classes tutorial
-// CHANGE BACK TO DEFAULT IF NEED NEW TUTORIAL.
+// CHANGE BACK TO DEFAULT IF NEEDED.
 interface Persona {
     name: string;
     age: number;
