@@ -23,7 +23,7 @@ Inheritance refers to the ability to create a new class (sub/child class) that i
     }
 
     // Sub/Child class
-    class Student {
+    class Student extends Person {
         
         school: string;
 
