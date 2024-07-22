@@ -18,3 +18,5 @@ This Git repository provides a comprehensive tutorial designed to help JavaScrip
 Typescript is a programming language that is a superset of JavaScript. In other words, any JavaScript code is valid Typescript code. However, TypeScript adds statics typing to the language, this means that you can specify types of variables, parameters and return values in your code.
 
 in JavaScript, variables can hold values of any type, and the type can change during run time.Typescript introduce static typing, allowing to declare the type of variables, making it easier to catch and prevent certain types of errors during development. This can lead to more robust and maintainable code.
+
+Start coding [typescript playground](https://www.typescriptlang.org/play/?#code/Q)
