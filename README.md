@@ -19,4 +19,6 @@ Typescript is a programming language that is a superset of JavaScript. In other 
 
 in JavaScript, variables can hold values of any type, and the type can change during run time.Typescript introduce static typing, allowing to declare the type of variables, making it easier to catch and prevent certain types of errors during development. This can lead to more robust and maintainable code.
 
-👉 Start coding [TypeScript Playground](https://www.typescriptlang.org/play/?#code/Q)
+
+👉 Start coding [TypeScript Playground](https://www.typescriptlang.org/play/?#code/Q)\
+👉 Next [TypeScript 4 Beginners Data Structure 🚀📚](https://github.com/redmejia/typescript-data-structure)
